@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+}
+
+*,
+*::before,
+*::after {
+	outline: none !important;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.primary-navbar {
+	background: #0052a2;
+	text-align: center;
+	padding: 15px;
+}
+
+.primary-navbar a,
+.primary-navbar p {
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: 500;
+	margin: 0;
+	font-size: 15px;
+}
+
+.primary-navbar a {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.links-container {
+	width: 100%;
+	max-width: 750px;
+	margin: auto;
+}
+
+.links {
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: 500;
+	display: block;
+	text-decoration: none;
+	color: #000;
+	background: #e5e5e5;
+	margin: 10px;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 5px;
+}
+
+.links:hover {
+	color: #0052a2;
+}

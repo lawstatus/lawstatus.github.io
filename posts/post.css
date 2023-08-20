@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+}
+
+*,
+*::before,
+*::after {
+	outline: none !important;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.post-container {
+	font-family: 'Segoe UI', sans-serif;
+	padding: 0 10px 0 10px;
+}
+
+.post-container-inner {
+	max-width: 750px;
+	margin: auto;
+}
+
+.post-heading {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.post-img {
+	width: 100%;
+	max-width: 750px;
+	height: auto;
+	border-radius: 5px;
+}
+
+.post-content {
+	font-size: 15px;
+	text-align: justify;
+}
